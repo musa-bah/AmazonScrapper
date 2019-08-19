@@ -1,3 +1,3 @@
-# AmazonScrapper
-This is also another summer project. It is a web scrapper targeting the Amazon site. This bot will allows you to enter the name of a project, search the product on Amazon site and displays the product information and price. The product info is not saved in a CVS.
-The bot is not protected and will be blocked if unuaual requests are made to the Amazon server. 
+ # AmazonScrapper
+This is also another summer project. It is a web scrapper for Amazon site. This bot allows you to enter the name of a product, search the product on Amazon site and display the product listing and prices as it would be on Amazon site. The product info is not saved in a CSV, however. Currently the bot can list all horizontal product listing and vertical product listing. But Amazon has another way of listing products, which is different from the aforementioned. There is an error handler in the code for products with this unusual product listing. So, I recommend removing it to see the errors the code might be throwing.
+The bot is not protected against bot trackers and will be blocked if unusual requests are made to the Amazon server. To avoid bot trackers, I’d disguise my user agent and IP address. There are documentations on Google on how this is achieved. 
